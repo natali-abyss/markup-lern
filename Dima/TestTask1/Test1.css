@@ -1,5 +1,15 @@
-    .top-menu-padding {
-		color: #888;
+
+body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    min-width: 800px !important;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.top-menu-padding {
+    color: #888;
     text-transform: none;
     font-weight: normal;
     font-size: 14px;
@@ -7,63 +17,74 @@
     text-decoration: none;
     min-height: 17px;
     float: left;
-	padding: 0 15px;
-	}
-	
-	.image-wrap {
-	    width: 45px;
+    padding: 0 15px;
+}
+
+.image-wrap {
+    width: 45px;
     height: 41px;
     position: absolute;
     left: 0;
     top: 0;
 }
 
-
 /* Top Menu */
-#header ul {padding: 0;z-index: 1000;width:auto; display:inline-block}
-#header ul li {padding: 0;margin-left: 4px;margin-bottom: 4px;list-style: none;float: left;position: relative;}
-
-
-
-#languageselection ul.languageselection
-{
-	list-style: none;
-	padding: 0;
-	margin-top: 3px;
-	font-weight: normal;
+#header ul {
+    padding: 0;
+    z-index: 1000;
+    width: auto;
+    display: inline-block
 }
 
-#languageselection ul.languageselection li
-{
-	background-image: none;
-	padding-left: 0;
-	padding-right: 0;
-	float: left;
-	margin: 1px 1px 1px 1px;
-	white-space: nowrap;
-	border: none;
-	font-size: 16px;
+#header ul li {
+    padding: 0;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    list-style: none;
+    float: left;
+    position: relative;
 }
 
+#languageselection ul.languageselection {
+    list-style: none;
+    padding: 0;
+    margin-top: 3px;
+    font-weight: normal;
+}
+
+#languageselection ul.languageselection li {
+    background-image: none;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+    margin: 1px 1px 1px 1px;
+    white-space: nowrap;
+    border: none;
+    font-size: 16px;
+}
 
 .rawimages {
-	text-align: center;
-	margin-top: 3px;
+    text-align: center;
+    margin-top: 3px;
 }
+
 .rawimages img {
-	border: none;
-	margin:2px;
+    border: none;
+    margin: 2px;
 }
 
-.container {margin: 0 auto;width: 960px;}
-body {min-width: 960px;}
-
-.block {
+.container {
+    margin: 0 auto;
+    width: 960px;
     padding-left: 15px;
     margin-bottom: 10px;
     position: relative;
     text-align: center
-	}
+}
 
-body {font-size: 12px;line-height: 1.7em;font-family: Helvetica,Arial, Sans-Serif;}
+.text-styles {
+    text-align: center;
+    color:#000000;
+    font-size:14px
+}
 
