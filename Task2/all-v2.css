@@ -1,0 +1,138 @@
+html{height:100%;}
+body{
+	margin:0;
+	font:11px Arial, Helvetica, sans-serif;
+	height:100%;
+}
+a{text-decoration:none;color:#000;}
+a:hover{color:#a8141a;}
+h1{
+	font-size:15px;
+	margin:0;
+}
+h2{
+	font-size:11px;
+	margin:15px 0 -13px;
+}
+h3{
+	font:italic 11px Arial, Helvetica, sans-serif;
+	margin:15px 0 -13px;
+}
+#wrapper{
+	width:641px;
+	min-height:100%;
+	margin:0 auto;
+	background:#fff;
+}
+#header{
+	height:113px;
+	width: 100%;
+	overflow: hidden;
+	background:url(header-bcg.gif) repeat-y;
+}
+.logo{
+	width:267px;
+	height:77px;
+	display:block;
+	background:url(logo-soa-poli.png) no-repeat;
+	text-indent:-9999px;
+	margin:9px auto 0;
+}
+.logo a{
+	display:block;
+	height:100%;
+	overflow:hidden;
+}
+
+
+
+#main{
+	padding:35px 0 150px;	
+}
+.frame{
+	width:100%;
+	overflow:hidden;
+	background:url(scheiding-menu-en-tekst.png) repeat-y 180px 0;
+}
+#content{
+	float:right;
+	width:392px;
+	padding:0 55px 0 0;
+}
+#content p{
+	line-height:16px;
+	margin:15px 0 0;
+}
+#sidebar{
+	float:left;
+	width:191px;
+}
+#sidebar ul{
+	margin:0 0 0 22px;
+	padding:0;
+	list-style:none;
+	width:142px;
+	overflow:hidden;
+	font-weight:bold;
+}
+#sidebar ul li{
+	line-height:13px;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	padding:0 0 9px;
+}
+#sidebar ul li a{
+	cursor:pointer;
+	background:url(bullet-openingstijden.png) no-repeat 0 2px;
+	padding:0 0 0 13px;
+	display:block;
+}
+#sidebar ul li a:hover,
+#sidebar ul li.active a{color:#a8141a;background:url(bullet-openingstijden.png) no-repeat 0 2px}
+#sidebar ul ul{
+	margin: 2px 0 0 11px;
+	width: 131px;
+}
+#sidebar ul ul a{
+	color: #000 !important;
+	background:url(bullet-subkopje.png) no-repeat 0 5px !important;
+	padding:0 0 0 13px;
+	font-size: 9px;
+}
+#sidebar ul ul .active a,
+#sidebar ul ul a:hover{
+	cursor:pointer;
+	color: #a8141a !important;
+}
+#sidebar ul ul li{
+	padding:0;
+}
+#footer{
+	height:122px;
+	width:641px;
+	overflow:hidden;
+	margin:-122px auto 0;
+	color: white;
+    text-align:center;
+	background:#000 url(cirkels-in-zwart-onder.png) no-repeat 0 100%;
+	position:relative;
+}
+#footer a{font-size:9px;}
+.sense{
+	width:81px;
+	height:69px;
+	float:right;
+	overflow: hidden;
+	background:url(sense-logo.png) no-repeat;
+	text-indent:-9999px;
+	margin:17px 37px 0 0;
+}
+#footer p{
+	margin:60px 0 0 27px;
+	color:#fff;
+}
+
+
+
+
