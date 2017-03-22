@@ -4,8 +4,7 @@ body{
 	font:11px Arial, Helvetica, sans-serif;
 	height:100%;
 }
-a{text-decoration:none;color:#000;}
-a:hover{color:#a8141a;}
+
 h1{
 	font-size:15px;
 	margin:0;
@@ -24,7 +23,7 @@ h3{
 	margin:0 auto;
 	background:#fff;
 }
-#header{
+header{
 	height:113px;
 	width: 100%;
 	overflow: hidden;
@@ -35,24 +34,18 @@ h3{
 	height:77px;
 	display:block;
 	background:url(logo-soa-poli.png) no-repeat;
-	text-indent:-9999px;
 	margin:9px auto 0;
-}
-.logo a{
-	display:block;
-	height:100%;
-	overflow:hidden;
 }
 
 
 
 #main{
-	padding:35px 0 150px;	
+	padding:35px 0 150px;
 }
 .frame{
+	background:url(scheiding-menu-en-tekst.png) repeat-y 180px 0;
 	width:100%;
 	overflow:hidden;
-	background:url(scheiding-menu-en-tekst.png) repeat-y 180px 0;
 }
 #content{
 	float:right;
@@ -89,7 +82,7 @@ h3{
 	display:block;
 }
 #sidebar ul li a:hover,
-#sidebar ul li.active a{color:#a8141a;background:url(bullet-openingstijden.png) no-repeat 0 2px}
+#sidebar ul li.active a{color:red;background:url(bullet-openingstijden.png) no-repeat 0 2px}
 #sidebar ul ul{
 	margin: 2px 0 0 11px;
 	width: 131px;
@@ -103,12 +96,12 @@ h3{
 #sidebar ul ul .active a,
 #sidebar ul ul a:hover{
 	cursor:pointer;
-	color: #a8141a !important;
+	color: red !important;
 }
 #sidebar ul ul li{
 	padding:0;
 }
-#footer{
+footer{
 	height:122px;
 	width:641px;
 	overflow:hidden;
@@ -118,17 +111,16 @@ h3{
 	background:#000 url(cirkels-in-zwart-onder.png) no-repeat 0 100%;
 	position:relative;
 }
-#footer a{font-size:9px;}
+footer a{font-size:9px;}
 .sense{
 	width:81px;
 	height:69px;
 	float:right;
 	overflow: hidden;
 	background:url(sense-logo.png) no-repeat;
-	text-indent:-9999px;
 	margin:17px 37px 0 0;
 }
-#footer p{
+footer p{
 	margin:60px 0 0 27px;
 	color:#fff;
 }
