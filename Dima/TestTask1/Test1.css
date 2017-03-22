@@ -8,18 +8,6 @@ body {
     font-family: Helvetica, Arial, Sans-Serif;
 }
 
-.top-menu-padding {
-    color: #888;
-    text-transform: none;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    text-decoration: none;
-    min-height: 17px;
-    float: left;
-    padding: 0 15px;
-}
-
 .image-wrap {
     width: 45px;
     height: 41px;
@@ -28,21 +16,21 @@ body {
     top: 0;
 }
 
-/* Top Menu */
 #header ul {
     padding: 0;
-    z-index: 1000;
     width: auto;
-    display: inline-block
+    display: inline-block;
 }
 
 #header ul li {
-    padding: 0;
-    margin-left: 4px;
-    margin-bottom: 4px;
+    color: #888;
     list-style: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 17px;
     float: left;
-    position: relative;
+    padding: 0 15px;
 }
 
 #languageselection ul.languageselection {
@@ -77,8 +65,6 @@ body {
     margin: 0 auto;
     width: 960px;
     padding-left: 15px;
-    margin-bottom: 10px;
-    position: relative;
     text-align: center
 }
 
